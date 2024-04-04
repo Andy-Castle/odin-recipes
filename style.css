@@ -40,3 +40,10 @@ img {
   color: white;
   font-style: italic;
 }
+
+@media only screen and (max-width: 800px) {
+  .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
